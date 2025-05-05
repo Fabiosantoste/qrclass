@@ -4,13 +4,14 @@ import { View, Text, TouchableOpacity, StyleSheet, ScrollView } from 'react-nati
 export default function SelectClassScreen({ navigation }) {
   const [turno, setTurno] = useState('Matutino');
   const turmas = [
-    'Startups',
+    'Arq. De Software',
     'Programação web',
     'Engenharia de software',
     'Programação estruturada',
     'Redes de computadores',
     'Governança de T.I.',
     'Redes Neurais',
+    'Inteligencia Artificial',
   ];
 
   return (
